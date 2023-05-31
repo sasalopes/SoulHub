@@ -1,0 +1,116 @@
+.post-buttons {
+  display: flex;
+  /* Exibe os botões em uma linha */
+  justify-content: center;
+  /* Centraliza os botões horizontalmente */
+  gap: 10px;
+  /* Define um espaçamento de 10px entre os botões */
+  margin-top: 20px;
+  /* Define uma margem superior de 20px */
+}
+
+.comment-count {
+  margin-left: 0.5rem;
+  /* Define uma margem esquerda de 0.5rem */
+  color: black;
+  /* Define a cor do texto como preto */
+}
+
+.card-fixed-height {
+  height: 450px;
+  /* Define a altura fixa de 450px para o card */
+}
+
+form {
+  display: flex;
+  /* Exibe os elementos do formulário em uma coluna */
+  flex-direction: column;
+  /* Alinha os elementos em uma coluna */
+  align-items: flex-start;
+  /* Alinha os elementos à esquerda */
+  justify-content: space-between;
+  /* Distribui o espaço verticalmente */
+  height: 100%;
+  /* Define a altura do formulário como 100% */
+}
+
+textarea {
+  width: 100%;
+  /* Define a largura do textarea como 100% */
+  resize: vertical;
+  /* Permite redimensionar verticalmente o textarea */
+  border-radius: 4px;
+  /* Adiciona um leve arredondamento nas bordas do textarea */
+}
+
+.publish-button {
+  background-color: white;
+  /* Define a cor de fundo como branco */
+  color: black;
+  /* Define a cor do texto como preto */
+  padding: 6px 12px;
+  /* Adiciona um espaçamento interno de 6px no topo/baixo e 12px na esquerda/direita */
+  border: 2px solid black;
+  /* Adiciona uma borda sólida de 2px preta */
+  border-radius: 4px;
+  /* Adiciona um leve arredondamento nas bordas do botão */
+  font-weight: bold;
+  /* Define a fonte como negrito */
+  font-size: 12px;
+  /* Define o tamanho da fonte como 12px */
+  cursor: pointer;
+  /* Define o cursor como ponteiro ao passar por cima do botão */
+  margin-top: 10px;
+  /* Define uma margem superior de 10px */
+  align-self: flex-end;
+  /* Alinha o botão à direita */
+}
+
+.publish-button:hover {
+  background-color: #f2f2f2;
+  /* Muda a cor de fundo para cinza claro quando o botão é hover */
+}
+
+.comment-content {
+  display: flex;
+  /* Exibe os elementos em uma linha */
+  justify-content: space-between;
+  /* Distribui o espaço horizontalmente */
+}
+
+.comment-count {
+  margin-left: 0.5rem;
+  color: black;
+}
+
+.comment-text-dark {
+  color: black;
+}
+
+.divider-line-dark {
+  border-color: black;
+}
+
+.dark .likes-postagem{
+  color: white;
+}
+
+.curtidas-numero-dark {
+  color: white;
+  /* Define a cor do texto como branco */
+  
+}
+
+.dark .coment-postagem {
+  color: white;
+}
+
+.curtidas-numero1.light {
+  color: black;
+  /* Define a cor do número de curtidas para o tema light */
+}
+
+.curtidas-numero1.dark {
+  color: white;
+  /* Define a cor do número de curtidas para o tema dark */
+}

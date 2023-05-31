@@ -1,0 +1,142 @@
+.login.githubIcon {
+  border: none !important;
+  background-color: #0e0e0f  !important;
+
+
+}
+.login.btnLogin {
+  width: 250px !important;
+  border: none !important;
+  height: 50px;
+}
+
+
+#login.gitIcon:hover {
+  background-color: #0a0a0ae3 !important;
+  
+} 
+  .login { /*Imagem de fundo da página*/ 
+    align-items: center;
+  background-image: url("../../assets/tecnologia-digital-do-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  @media(max-width: 768px) {
+    .login {
+      background-image: url("../../assets/tecnologia-digital-do-fundo.jpg");
+      height: auto;
+    }
+  }
+
+
+.login.text-center, h4, .text-muted {
+  color: rgb(11, 11, 11);
+} /* Título da plataforma h4 */
+
+
+.login.card-title {
+font-size: 10px;/*Card título*/
+
+}
+
+.login.login-card p { /*Paragráfo*/
+font-size: 20px;
+}
+
+
+.line { /*linha do meio, da página de login */
+position: absolute;
+top: 50%;
+left: 50%;
+width: 1px;
+height: 50%;
+background-color: #f8f2f2;
+transform: translate(-50%, -50%);
+}
+.button-login { /*button login *//*Meche com todos os button*/
+display: flex;
+justify-content: center;
+font-size: 14px;
+padding: 10px 20px;
+margin-bottom: 3px;
+text-align: center;
+}
+.login-card2 { /*Todo o Card */
+float: right;
+width: 400px; /* ajuste a largura do card conforme necessário */
+margin-left: 600px; /* adicione uma margem à esquerda para separar o card do conteúdo principal */
+position: absolute;
+margin-top: 250px;
+}
+.login.mb-3 { /*redes Sociais*/
+border: none; 
+display: inline-block;
+text-align: center;
+font-size: 16px; 
+}
+.text-center1 { /*centralizar Logo */
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.logo-text {
+  text-align: left;
+  margin-top: -20px;
+
+}
+
+.mb-3.ms-2.githubIcon.btnLogin { /*button do github */
+background-color: #0e0e0f;
+border: none !important;
+}
+#button {
+box-shadow: 0px 0px 0px 3px rgba(40, 167, 69, 0.25);
+}
+.custom-link {
+text-decoration: none;
+color: inherit;
+}
+.custom-link:active {
+color: gray;
+}
+
+.entrarSemLogin {
+background-color: #3b5998;
+color: white;
+border-color: black;
+margin-bottom: 1px;
+margin-top: 1px;
+padding: 5px 5px;
+}
+
+.entrarSemLogin-button:hover {
+background-color: lightgray;
+}
+.email-input {
+width: 100%;  
+height: 40px; 
+}
+.form-control {
+display: inline;
+}
+

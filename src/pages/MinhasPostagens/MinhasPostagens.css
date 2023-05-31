@@ -1,0 +1,160 @@
+.minhas-postagens-container {
+    max-width: 800px;
+    /* Define a largura máxima do container */
+    margin: 0 auto;
+    /* Centraliza horizontalmente o container */
+    padding: 20px;
+    /* Adiciona espaçamento interno de 20px */
+    overflow-y: auto;
+    /* Adiciona uma barra de rolagem vertical quando o conteúdo excede a altura do container */
+    border: 1px solid black;
+    /* Adiciona uma linha circundando o container */
+    flex-wrap: wrap;
+    /* Permite que as postagens sejam envolvidas em várias linhas */
+}
+
+.minhas-postagens-container .card {
+    margin-bottom: 20px;
+    /* Adiciona margem inferior de 20px para separar as postagens */
+}
+
+.minhas-postagens-container::-webkit-scrollbar {
+    width: 10px;
+    /* Define a largura da barra de rolagem */
+}
+
+.minhas-postagens-container::-webkit-scrollbar-thumb {
+    background-color: black;
+    /* Define a cor do polegar da barra de rolagem */
+    border-radius: 5px;
+    /* Define os cantos arredondados do polegar da barra de rolagem */
+}
+
+.minhas-postagens-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(78, 73, 73);
+    /* Define a cor do polegar quando o mouse passa por cima */
+}
+
+.btn-custom {
+    border: 1px solid black !important;
+    /* Define uma borda de 1px sólida preta para os botões */
+}
+
+.btn-custom:hover {
+    border: 1px solid black !important;
+    /* Define uma borda de 1px sólida preta para os botões quando o mouse passa por cima */
+}
+
+.btn-icon-custom {
+    border: 1px solid black !important;
+    /* Define uma borda de 1px sólida preta para os botões de ícone */
+}
+
+.btn-icon-custom:hover {
+    border: 1px solid black !important;
+    /* Define uma borda de 1px sólida preta para os botões de ícone quando o mouse passa por cima */
+}
+
+.liked .bi-heart {
+    color: red;
+    /* Define a cor vermelha para o ícone de coração quando o elemento possui a classe "liked" */
+}
+
+.container-de-cards {
+    text-align: center;
+    /* Centraliza o texto horizontalmente dentro do elemento */
+    display: inline-block;
+    /* Exibe o elemento como um bloco com base no conteúdo e o posiciona em linha com outros elementos */
+    margin: 10px;
+    /* Adiciona margem de 10px em todas as direções */
+}
+
+.comment-count1 {
+    margin-left: 0.5rem;
+    /* Adiciona uma margem à esquerda de 0.5rem (8px) */
+    color: black;
+    /* Define a cor do texto como preto */
+}
+
+.dark {
+    background-color: #222;
+    /* Define a cor de fundo como preto (#222) */
+    color: #fff;
+    /* Define a cor do texto como branco (#fff) */
+}
+
+.div-dark {
+    background-color: #222;
+    /* Define a cor de fundo como preto (#222) */
+    color: #fff;
+    /* Define a cor do texto como branco (#fff) */
+}
+.dark .card-fixed-height {
+  background-color: #333;  /* Define a cor de fundo do elemento com a classe "card-fixed-height" como cinza escuro (#333) */
+  color: #fff;  /* Define a cor do texto como branco (#fff) */
+}
+
+.dark .botao-posts {
+    background-color:#f6f3f3;
+    color: #fff;
+}
+
+.dark .footer-posts {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark .comment-count
+{
+color: #fff;
+    }
+
+.textarea-preta {
+    border: 1px solid black;
+}
+
+.dark .botao-curtir {
+    color: #f6f3f3;
+    
+}
+.dark .botao-comentar {
+    color: #f6f3f3;
+
+}
+
+.curtidas-post {
+    color: black;
+    /* cor padrão para o modo claro */
+}
+
+.dark .card-footer {
+    background-color:#333;
+    color:white;
+    /* cor para o modo escuro */
+}
+.dark .exclusao{
+    color: black;
+}
+
+.dark .Publicar{
+    background-color: #504949;
+        color: white;
+    }
+
+.comment-wrapper.dark {
+    color: black;
+    background-color: white;
+}
+
+.comment-wrapper.dark p {
+    color: black;
+    background-color: white;
+}
+
+.dark .curtidas-numero{
+    color: white;
+}
+
+.light .curtidas-numero {
+    color: black;
+}

@@ -1,0 +1,31 @@
+.footer {
+    background-color: #e48d7a;
+}
+
+span {
+    color: white;
+}
+
+.bi-twitter {
+    color: white !important;
+}
+
+.bi-whatsapp {
+    color: white !important;
+}
+
+.bi-facebook {
+    color: white !important;
+}
+
+.bi-instagram {
+    color: white !important;
+}
+
+.light-theme{
+    border-bottom: 1px solid black;
+    background-color: #7890aca5 !important;
+}
+.lighBorder {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}

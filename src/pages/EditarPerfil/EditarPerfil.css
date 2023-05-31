@@ -1,0 +1,26 @@
+.EditarPerfilCard{
+    display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 32px;
+background: #F8F9FA;
+border: 1.06334px solid #B6D4FE;
+border-radius: 5.31672px;
+
+
+}
+
+.EditarPerfilCard Form{
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    align-items: center
+}
+
+.dark {
+    background-color: #333;
+    color: #fff;
+  }
+

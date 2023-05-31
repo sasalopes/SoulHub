@@ -1,0 +1,54 @@
+.Navbar a {
+  color: black;
+
+}
+
+.Navbar .nav-link.active {
+  background-color: #7da0c6;
+  color: #fff;
+}
+.Navbar a:hover {
+  background-color: #7da0c6;
+  color: #fff;
+}
+.light-theme{
+  border-bottom: 1px solid black;
+  background-color: #7890aca5 !important;
+}
+.lighBorder {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.dropdown-menu {
+  text-align: center;
+}
+
+
+
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.welcome-container i {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.fotoPerfil {
+  object-fit: cover;
+}
+.welcome-container h1 {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+.dropdown-menu {
+  text-align: center;
+}
+
+.dropdown-menu-end {
+  right: 63px!important;
+}
+
